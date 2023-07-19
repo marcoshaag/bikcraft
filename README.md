@@ -2,5 +2,5 @@
 <h3>Produzido com HTML e CSS</h3>
 <img src="img/bike.png" alt="">
 <h3>Projeto feito junto com a Plataforma de curso Origamid</h3>
-<p>Vem mais projetos com HTML e CSS e outros com JS</p>
+<p>Vem mais projetos com HTML e CSS e outros com JS &#9203</p>
 
