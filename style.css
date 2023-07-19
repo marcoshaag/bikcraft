@@ -139,3 +139,15 @@ footer {
   padding: 2.5rem;
   box-sizing: border-box;
 }
+
+@media (max-width: 600px){
+  .conteudo{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1200px){
+  html{
+    font-size: 150%;
+  }
+}
