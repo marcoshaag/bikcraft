@@ -1,3 +1,6 @@
+/* Os Comentários são feito para ajustar a questão de Site Responsivo, então esta detalhado
+cada item e o que serve */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -15,6 +18,11 @@ header{
 }
 img {
   max-width: 100%;
+}
+
+.introducao-img img{
+  object-fit: cover; /*corta imagem mas fica do tamanho do grid */
+  height: 100%;
 }
 
 a {
@@ -106,6 +114,7 @@ p {
   text-align: right;
   padding: 2.5rem;
   align-self: center;
+  /*word-break: break-all; Quebra as palavras para entrar todo o conteúdo*/
 }
 
 .vantagens {
@@ -140,9 +149,21 @@ footer {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px){
+@media (max-width: 810px){
   .conteudo{
     grid-template-columns: 1fr;
+  }
+  .subtitulo{
+    text-align: center;
+  }
+  .detalhe{
+    display: none;
+  }
+}
+
+@media (max-width: 455px){
+  .subtitulo{
+    font-size: 2rem;
   }
 }
 
